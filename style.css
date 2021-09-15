@@ -16,10 +16,37 @@ body{
 }
 /*sconatinter above*/
 .space{
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color: rgba(4, 105, 88, 0.685);
+}
 
+/*nav  bar style*/
+.navbar{
+    background-color: aliceblue;
+}
+/*toogler style*/
+.navbar-toggler {
+    background-color: rgb(12, 117, 103);
+
+}
+a:hover{
+   color: rgb(59, 59, 172);
+}
+/*dropdown-menu style*/
+.dropdown-menu{
+    background-color: rgb(12, 117, 103);
+}
+.dropdown-item:hover{
+    color: crimson;
+}
+/*dropdown style*/
+.dropdown-item{
+    border-bottom: dotted whitesmoke;
+}
+/*logo style*/
+.collapse{
+   background-color: aliceblue;
 }
 /* row spans just after the top corousel in Company*/
 .nav-inside{
