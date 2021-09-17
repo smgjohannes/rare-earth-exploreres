@@ -14,46 +14,62 @@ html,body{
 body{
     font-family: sans-serif;
 }
-/*sconatinter above*/
+.main-container{
+    background-color: white;
+}
+/*conatinter above*/
 .space{
     height: 30px;
     width: 100%;
-    background-color: rgba(4, 105, 88, 0.685);
+    top: 0px;
+    background-color: rgb(24, 95, 77);
 }
 
 /*nav  bar style*/
 .navbar{
-    background-color: aliceblue;
+    background-color: white;
+    height: 100px;
+    margin-top: 30px;
+
 }
 /*toogler style*/
 .navbar-toggler {
-    background-color: rgb(12, 117, 103);
+    background-color: rgb(24, 95, 77);
 
 }
 a:hover{
    color: rgb(59, 59, 172);
 }
+.nav-link:hover{
+    background-color: rgb(248, 237, 237);
+
+}
 /*dropdown-menu style*/
 .dropdown-menu{
-    background-color: rgb(12, 117, 103);
+    background-color: rgb(24, 95, 77);
 }
 .dropdown-item:hover{
-    color: crimson;
+    color: rgb(110, 110, 110);
 }
 /*dropdown style*/
 .dropdown-item{
-    border-bottom: dotted whitesmoke;
+    border-bottom: dotted rgb(88, 86, 86);
+
+}
+.dropdown-item {
+    background-color: rgb(24, 95, 77);
+
 }
 /*logo style*/
 .collapse{
-   background-color: aliceblue;
+   background-color: rgb(255, 255, 255);
 }
 /* row spans just after the top corousel in Company*/
 .nav-inside{
     background-color: rgb(24, 95, 77);
 }
 .company{
-    background-color: rgb(161, 108, 10);
+    background-color: rgb(10, 111, 170);
 }
 .col-4{
     float: right;
@@ -62,7 +78,7 @@ a:hover{
 .col-4 ul{
     list-style: none;
     text-align: left;
-    background-color: rgb(24, 95, 77);;
+    background-color: rgb(24, 95, 77);
 }
 .col-4 ul li{
    border-bottom: dotted whitesmoke;
@@ -72,7 +88,7 @@ a:hover{
 }
 .col-8 img{
     float: left;
-    margin-left: 20px;
+    margin-left: 9px;
     margin-top: 5px;
 
 }
@@ -85,4 +101,11 @@ a:hover{
 .persons-infor h3{
     color: white;
     margin-left: 20px;
+}
+p{
+    margin-left: 9px;
+}
+/*footer*/
+.card-body{
+    background-color: grey;
 }
